@@ -7,7 +7,9 @@
     "test": "jest"
   },
   "jest": {
-    "testPathIgnorePatterns": ["/tests"]
+    "testPathIgnorePatterns": [
+      "/tests"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -16,5 +18,8 @@
     "@playwright/test": "^1.17.1",
     "jest": "^27.4.5",
     "playwright": "^1.17.1"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0"
   }
 }
